@@ -1,9 +1,8 @@
-package com.task.Springevent.event;
-
+package com.spring.events.event;
 
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.task.Springevent.model.LogData;
+import com.spring.events.entity.LogData;
 import lombok.SneakyThrows;
 import org.springframework.context.event.EventListener;
 import org.springframework.scheduling.annotation.Async;
@@ -21,3 +20,4 @@ public class AuditEventHandler {
                 writeValueAsString(auditEvent.getData()));
     }
 }
+

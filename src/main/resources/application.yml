@@ -1,0 +1,16 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /qbrainx-springEvent
+
+
+spring-doc:
+  group-configs:
+    - group: qbrainx-springEvent
+      packagesToScan:
+        - "com.spring.events"
+  swagger-ui:
+    path: /qbrainx-1336586310L-swagger-ui.html
+  api-docs:
+    path: /v3/qbrainx-1336586310L-api-docs
+

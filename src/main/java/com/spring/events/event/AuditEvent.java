@@ -1,8 +1,7 @@
-package com.task.Springevent.event;
+package com.spring.events.event;
 
 import lombok.Getter;
 import org.springframework.context.ApplicationEvent;
-
 
 @Getter
 public class AuditEvent<T> extends ApplicationEvent {
